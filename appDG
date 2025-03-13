@@ -9,7 +9,7 @@ def calculate_bundle_price(products, discount):
     return total_cost, total_sale_price, bundle_price, net_margin
 
 # Streamlit App
-st.title("Bundle Pricing Calculator")
+st.title("BundleDG Calculator")
 
 # Session state for storing products
 if "products" not in st.session_state:
